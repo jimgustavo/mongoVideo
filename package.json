@@ -1,0 +1,47 @@
+{
+	"name": "mongoVideo",
+	"description": "Build a multimedia Application with Node.js",
+	"license": "MIT",
+	"author": {
+		"name": "Fernando Monteiro",
+		"url": "https://github.com/newaeonweb/node-6-blueprints"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/newaeonweb/node-6-blueprints.git"
+	},
+	"keywords": [
+		"MVC",
+		"Express Application",
+		"Expressjs",
+		"Expressjs images upload",
+		"Expressjs video upload"
+	],
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"bcrypt-nodejs": "0.0.3",
+		"body-parser": "^1.18.3",
+		"connect-flash": "^0.1.1",
+		"connect-mongo": "^2.0.3",
+		"cookie-parser": "^1.4.3",
+		"debug": "^4.1.1",
+		"ejs": "^2.6.1",
+		"express": "^4.16.4",
+		"express-session": "^1.13.0",
+		"gravatar": "^1.8.0",
+		"mongoose": "^5.4.1",
+		"morgan": "^1.9.1",
+		"multer": "^1.4.1",
+		"node-sass-middleware": "^0.11.0",
+		"passport": "^0.4.0",
+		"passport-local": "^1.0.0",
+		"serve-favicon": "^2.5.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.9.1"
+	}
+}
